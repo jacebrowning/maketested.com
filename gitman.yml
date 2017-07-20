@@ -1,8 +1,15 @@
-location: .
+location: themes
 sources:
-- name: themes/hugo-freelancer-theme
+- name: hugo-freelancer-theme
   repo: https://github.com/maketested/hugo-freelancer-theme
   rev: master
-- name: public
-  repo: https://github.com/maketested/maketested.com
-  rev: gh-pages
+  link:
+  scripts:
+  -
+sources_locked:
+- name: hugo-freelancer-theme
+  repo: https://github.com/maketested/hugo-freelancer-theme
+  rev: caca7d32e642c91c76c89ad6cab1e50c7133a95a
+  link:
+  scripts:
+  -
