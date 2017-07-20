@@ -2,6 +2,8 @@ language: go
 
 install:
   - go get -v github.com/maketested/hugo
+  - mkdir themes
+  - git clone https://github.com/maketested/hugo-freelancer-theme themes/hugo-freelancer-theme
 
 script:
   - hugo --verbose
