@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://maketested.com"
+baseurl = "https://maketested.com/"
 languageCode = "en-us"
 title = "MakeTested LLC"
 theme = "hugo-freelancer-theme"
