@@ -2,17 +2,19 @@
 all: build
 
 .PHONY: install
-install: public
+install: public $(shell gitman show --log)
+$(shell gitman show --log): $(shell gitman show --config)
 	gitman install --fetch
+	gitman list
 public:
 	git clone https://github.com/maketested/maketested.com public
 
 .PHONY: run
-run:
+run: install
 	hugo serve
 
 .PHONY: build
-build:
+build: install
 	hugo
 
 .PHONY: upload
