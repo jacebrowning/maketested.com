@@ -1,0 +1,8 @@
+location: .
+sources:
+- name: themes/hugo-freelancer-theme
+  repo: https://github.com/maketested/hugo-freelancer-theme
+  rev: master
+- name: public
+  repo: https://github.com/maketested/maketested.com
+  rev: gh-pages
