@@ -9,7 +9,7 @@ sources:
 sources_locked:
 - name: hugo-freelancer-theme
   repo: https://github.com/maketested/hugo-freelancer-theme
-  rev: caca7d32e642c91c76c89ad6cab1e50c7133a95a
+  rev: 32ba9430bfac43fcb61a4b4f843e08a943531527
   link:
   scripts:
   -
