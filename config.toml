@@ -96,7 +96,7 @@ theme = "hugo-freelancer-theme"
         #     address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
 
         [params.footer.social]
-            title = "Follow us"
+            title = "Connect with us"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
             # for more icons. The icons are represented by their corresponding
             # CSS class.
