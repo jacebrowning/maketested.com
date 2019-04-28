@@ -1,7 +1,8 @@
 language: go
 
 install:
-  - go get -v github.com/maketested/hugo
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.48/hugo_0.48_Linux-64bit.deb
+  - sudo dpkg -i hugo*.deb
   - mkdir themes
   - git clone https://github.com/maketested/hugo-freelancer-theme themes/hugo-freelancer-theme
 
