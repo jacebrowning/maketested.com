@@ -1,14 +1,20 @@
 location: themes
 sources:
 - name: hugo-freelancer-theme
+  type: git
   repo: https://github.com/maketested/hugo-freelancer-theme
+  sparse_paths:
+  -
   rev: master
   link:
   scripts:
   -
 sources_locked:
 - name: hugo-freelancer-theme
+  type: git
   repo: https://github.com/maketested/hugo-freelancer-theme
+  sparse_paths:
+  -
   rev: 32ba9430bfac43fcb61a4b4f843e08a943531527
   link:
   scripts:
