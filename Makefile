@@ -20,3 +20,7 @@ build: install
 .PHONY: upload
 upload: build
 	cd public && git commit && git push
+
+.PHONY: clean
+clean:
+	rm -rf public
