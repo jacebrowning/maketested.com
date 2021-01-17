@@ -88,7 +88,7 @@ theme = "hugo-freelancer-theme"
 
 
     [params.footer]
-        copyright = "© 2020 MakeTested, LLC"
+        copyright = "© 2021 MakeTested, LLC"
 
         # [params.footer.location]
         #     title = "Location"
