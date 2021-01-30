@@ -1,8 +1,8 @@
-modalID: 1
+modalID: memecomplete
 title: Meme Complete
 date: 2017
 img: memecomplete.jpg
 client: memecomplete.com
 clientLink: https://memecomplete.com
-category: Web App
+category: Web App, API
 description: Autocomplete for memes.
