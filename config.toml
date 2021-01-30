@@ -63,6 +63,10 @@ theme = "hugo-freelancer-theme"
         left = "We specialize in test automation, command-line tooling, and custom web development."
         right = "Our technology stack commonly includes Python, Django, Postgres, and Heroku."
 
+        [params.about.button]
+            link = "#"
+            icon = "arrow-circle-up"
+
     [params.contact]
         title = "Contact"
 
